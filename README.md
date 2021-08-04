@@ -15,6 +15,7 @@ This storybook library uses Vite.js & ESBuild
 # Deploying to GH Pages
 
 [storybook-deployer](https://github.com/storybookjs/storybook-deployer)
+Deploys a generated static site build to the gh-pages branch that can be publish via github pages by pointing to that branch in settings
 
     npm run deploy-storybook
 
