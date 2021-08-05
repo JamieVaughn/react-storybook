@@ -25,6 +25,11 @@ Deploys a generated static site build to the gh-pages branch that can be publish
 
 other notes on [publishing](https://storybook.js.org/docs/react/workflows/publish-storybook) a storybook site
 
+#### Using Chromatic to Deploy
+
+    npm install --save-dev chromatic
+    npx chromatic --project-token=<your-project-token>
+
 # Using storybook as a documentation site
 
 [Docs](https://storybook.js.org/docs/react/writing-docs/introduction)
